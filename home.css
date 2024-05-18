@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+
+.location{
+display: sticky;
+}
+
+.location-alert{
+margin-left: 33%;
+}
+
+.location-alert img{
+    height: 13px;
+    margin-right: 5px;
+}
+
+.location-alert p{
+    display: inline;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.location-alert button{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: x-small;
+    margin-left: 10pt;
+    padding: 7px 15px;
+    height: fit-content;
+    border-radius: 20px;
+    color: #fff;
+    background-color: black;
+}
+
+hr{
+    display: sticky;
+    border-color: #FFFBF5;
+    border-width: 1px;
+}
+
+
+.nav{
+    position: sticky;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 140px;
+    position: sticky;
+}
+
+.nav-p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 590;
+    font-size: small;
+    margin: auto;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.sign-in{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+    
+}
+
+.account-icon{
+    margin: auto;
+    height: 20px;
+}
+
+.money-balance{
+    display: flex;
+    flex-direction: row;
+}
+
+.start-order{
+    align-items: center;
+    height: 68px;
+    display: flex;
+    gap: 15px;
+    background-color: #202124; 
+}
+
+.start-order-container{
+    margin: auto;
+    background-color: #202124;
+}
+
+.start-order p{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    background-color: #202124;
+    display: inline;
+}
+
+.start-order button{
+    margin-left: 5px;
+    padding: 12px 50px;
+    color: #fff;
+    background-color: #e4002b;
+    border-radius: 50px;
+    border-width: 0cap;
+
+}
+
+.categories-heading{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-left: 140px;
+}
+
+.categories{
+    margin-left: 25px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 0 140px;
+}
+
+
+
+.card{
+    background-color: #F6F5F2;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+
+
+.card img{
+    padding-bottom: 20px;
+    background-color: #F6F5F2;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.card p{
+    background-color: #F6F5F2;
+    padding-bottom: 20px;
+    margin: 0 ;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.slider-card-text{
+    background-color: #fff;
+}
+
+.bottom-container{
+    padding-left: 200px;
+    margin-top: 80px;
+    background-color: #202124;
+
+}
+
+.head{
+    padding-top: 30px;
+    background-color: #202124;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-container h1{
+    
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    background-color: #202124;
+}
+
+.view-deals{
+    margin-top: 25px;
+    background-color: #202124;
+    margin-right: 230px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.view-deals p{
+    font-family: "Reddit Sans";
+    font-size: small;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+    color: #fff;
+    background-color: #202124;
+}
+
+.view-deals span{
+    margin-top: 10px;
+    background-color: #202124;
+    color: #fff;
+}
+
+.card-slider-container{
+    width: 100%;
+    background-color: #202124;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 40px;
+}
+
+.slider-card{
+    flex: 0 0 350px;
+    border-radius: 15px;
+    height: auto;
+    overflow: hidden;
+    scroll-snap-align: start;
+    text-align: center;
+}
+
+.slider-card-text{
+    padding: 0 20px 20px 20px;
+}
+
+.slider-card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.slider-card h1{
+    margin: 0;
+    color: red;
+    background-color: #fff;
+}
+
+.slider-card p{
+    margin: 0;
+    font-family: "Reddit Sans";
+    font-size: 14px;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-foot{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.card-foot p{
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.card-foot a{
+    color: #202124;
+}
+
+.card-foot button{
+    padding: 13px 45px;
+    border-width: 1px;
+    background-color: #fff;
+    border-radius: 40px;
+    color: black;
+    font-weight: 700;
+}
+
+.card-foot button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.credits{
+    font-family: "Reddit Sans";
+    margin-top: 150px;
+    margin-left: 100px;
+    background-color: #202124;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: small;
+}
+
+.location p{
+    display: inline;
+}
+
+.location{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.kfc-logo-credits{
+    margin-bottom: 70px;
+    background-color: #202124;
+}
+
+.store{
+    margin-left: 20px;
+}
+
+.store img{
+    margin-left: 20px;
+}
+
+table{
+    margin-left: 65px;
+}
+
+td{
+    width: 140px;
+    padding-bottom: 10px;
+}
+
+.overall{
+    background-color: #202124;
+}
+
+
+.copyright{
+    font-family: 'Uber Move Text', sans-serif;
+    color: whitesmoke;
+    font-size: 12px;
+    margin: 40px 70px 15px 70px;
+    text-align: center;
+}
+
+.medias{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.fb{
+    filter: invert(1);
+}
